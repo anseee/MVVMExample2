@@ -51,9 +51,11 @@
                     <navigationItem key="navigationItem" id="EHt-m0-zy2"/>
                     <connections>
                         <outlet property="tableView" destination="tlg-Yf-g8S" id="oYL-WA-vL0"/>
+                        <outlet property="viewModel" destination="ING-QP-S6a" id="JyM-Ov-A7e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="ING-QP-S6a" customClass="ViewModel" customModule="MVVMExample2" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="1076" y="138.98050974512745"/>
         </scene>

@@ -13,6 +13,7 @@
 		5C2096831F01479D00DE1A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2096821F01479D00DE1A84 /* Assets.xcassets */; };
 		5C2096861F01479D00DE1A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2096841F01479D00DE1A84 /* LaunchScreen.storyboard */; };
 		5C2096911F01479D00DE1A84 /* MVVMExample2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2096901F01479D00DE1A84 /* MVVMExample2Tests.swift */; };
+		5C20969C1F014D0E00DE1A84 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C20969B1F014D0E00DE1A84 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5C20968C1F01479D00DE1A84 /* MVVMExample2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMExample2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2096901F01479D00DE1A84 /* MVVMExample2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMExample2Tests.swift; sourceTree = "<group>"; };
 		5C2096921F01479D00DE1A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C20969B1F014D0E00DE1A84 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				5C20967B1F01479D00DE1A84 /* AppDelegate.swift */,
 				5C20967D1F01479D00DE1A84 /* ViewController.swift */,
+				5C20969B1F014D0E00DE1A84 /* ViewModel.swift */,
 				5C20967F1F01479D00DE1A84 /* Main.storyboard */,
 				5C2096821F01479D00DE1A84 /* Assets.xcassets */,
 				5C2096841F01479D00DE1A84 /* LaunchScreen.storyboard */,
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C20967E1F01479D00DE1A84 /* ViewController.swift in Sources */,
+				5C20969C1F014D0E00DE1A84 /* ViewModel.swift in Sources */,
 				5C20967C1F01479D00DE1A84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
