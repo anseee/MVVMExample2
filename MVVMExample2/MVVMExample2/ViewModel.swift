@@ -10,7 +10,7 @@ import UIKit
 
 class ViewModel: NSObject {
 
-    var moviesClient: MoviesClient!
+    @IBOutlet var moviesClient: MoviesClient!
     var movies: [NSDictionary]?
     
     func fetchMovies(completion: () -> ()) {
@@ -20,11 +20,11 @@ class ViewModel: NSObject {
     }
     
     func numberOfItemsInSection(section :Int) -> Int {
-        return 10
+        return self.movies?.count ?? 0
     }
     
     func titleForItemAtIndexPath(indexPath: IndexPath) -> String {
-        return "hello"
+        return self.movies?[indexPath.row]["im:name.label"] as? String ?? ""
     }
     
 }

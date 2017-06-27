@@ -55,7 +55,12 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <customObject id="ING-QP-S6a" customClass="ViewModel" customModule="MVVMExample2" customModuleProvider="target"/>
+                <customObject id="ING-QP-S6a" customClass="ViewModel" customModule="MVVMExample2" customModuleProvider="target">
+                    <connections>
+                        <outlet property="moviesClient" destination="FtZ-qB-gXR" id="2qu-Vj-mQN"/>
+                    </connections>
+                </customObject>
+                <customObject id="FtZ-qB-gXR" customClass="MoviesClient" customModule="MVVMExample2" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="1076" y="138.98050974512745"/>
         </scene>
